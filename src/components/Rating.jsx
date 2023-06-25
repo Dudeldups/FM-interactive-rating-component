@@ -4,20 +4,20 @@ export default function Rating({ rating, handleChange, handleSubmit }) {
   const possibleRatings = ["1", "2", "3", "4", "5"];
 
   const radioInputs = possibleRatings.map(num => (
-    <>
-      <label htmlFor={num}>
-        <input
-          key={num}
-          id={num}
-          type="radio"
-          value={num}
-          name="ratings"
-          checked={rating === num}
-          onChange={handleChange}
-        />
+    <div key={`input${num}`}>
+      <input
+        id={num}
+        type="radio"
+        value={num}
+        name="ratings"
+        checked={rating === num}
+        onChange={handleChange}
+        className="sr-only form__input-container__input"
+      />
+      <label htmlFor={num} className="form__input-container__label">
         {num}
       </label>
-    </>
+    </div>
   ));
 
   return (

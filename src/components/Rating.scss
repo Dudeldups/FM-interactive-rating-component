@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(colors.$white, 0.05);
+    background: rgba(colors.$white, 0.05);
     width: 2.5rem;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
@@ -32,19 +32,32 @@
     display: flex;
     justify-content: space-between;
 
-    & label {
+    &__label {
       display: grid;
-      background-color: rgba(colors.$white, 0.05);
-      border-radius: 50%;
-      height: 2.65em;
+      align-items: center;
+      background: rgba(colors.$white, 0.05);
       height: min(3.25em, -0.25em + 13.5vw);
       aspect-ratio: 1 / 1;
+      border-radius: 50%;
       color: colors.$medium-grey;
       text-align: center;
+      cursor: pointer;
+      transition: background 200ms, color 200ms;
     }
 
-    & input {
-      appearance: none;
+    &__input {
+      &:checked + label {
+        background: rgba(colors.$medium-grey, 0.9);
+        color: colors.$white;
+      }
+    }
+
+    &__label:hover,
+    &__input:focus-visible + label,
+    &__input:checked + label:hover {
+      background: colors.$orange;
+      color: colors.$white;
+      transition: background 200ms, color 200ms;
     }
   }
 
@@ -53,10 +66,20 @@
     width: 100%;
     padding: 0.75rem;
     border-radius: 5rem;
-    background-color: colors.$orange;
+    background: colors.$orange;
+    cursor: pointer;
     color: colors.$white;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    user-select: none;
+    transition: background 200ms, color 200ms;
+
+    &:hover,
+    &:focus {
+      background: colors.$white;
+      color: colors.$orange;
+      transition: background 200ms, color 200ms;
+    }
   }
 }
