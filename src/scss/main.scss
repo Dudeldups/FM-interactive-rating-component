@@ -2,6 +2,24 @@
 @use "resets";
 
 body {
-  font: 0.9375rem "Overpass" sans-serif;
+  font: 0.9375rem "Overpass", sans-serif;
   background: colors.$very-dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1.25rem;
+  padding-inline: min(3.5vw, 1.25rem);
+}
+
+main {
+  background: colors.$dark-blue;
+  background: radial-gradient(
+    farthest-side at top center,
+    rgba(colors.$dark-blue, 1) 0%,
+    rgba(colors.$dark-blue, 0.66) 100%
+  );
+  max-width: 22.5rem;
+  padding: 1.5rem;
+  padding-inline: min(6.5vw, 1.5rem);
+  border-radius: 13px;
 }

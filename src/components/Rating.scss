@@ -1,0 +1,62 @@
+@use "../scss/colors";
+
+.form {
+  &__img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(colors.$white, 0.05);
+    width: 2.5rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+  }
+
+  &__text {
+    &__title {
+      margin-top: 1.5rem;
+      color: colors.$white;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    &__description {
+      margin-top: 0.8rem;
+      color: colors.$light-grey;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  }
+
+  &__input-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    & label {
+      display: grid;
+      background-color: rgba(colors.$white, 0.05);
+      border-radius: 50%;
+      height: 2.65em;
+      height: min(3.25em, -0.25em + 13.5vw);
+      aspect-ratio: 1 / 1;
+      color: colors.$medium-grey;
+      text-align: center;
+    }
+
+    & input {
+      appearance: none;
+    }
+  }
+
+  &__button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5rem;
+    background-color: colors.$orange;
+    color: colors.$white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+}
