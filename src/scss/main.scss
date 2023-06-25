@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@use "colors";
+@use "resets";
 
 body {
-  background-color: steelblue;
+  font: 0.9375rem "Overpass" sans-serif;
+  background: colors.$very-dark-blue;
 }
