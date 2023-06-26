@@ -24,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](https://github.com/Dudeldups/FM-interactive-rating-component/blob/main/src/design/desktop-design.jpg)
 
-![Finished desktop design](./design/solution.png)
+![Finished desktop design](https://github.com/Dudeldups/FM-interactive-rating-component/blob/main/src/design/solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/reactscss-rating-component-s_66TBit85](https://www.frontendmentor.io/solutions/reactscss-rating-component-s_66TBit85)
+- Live Site URL: [https://fm-rating-component-9000.netlify.app/](https://fm-rating-component-9000.netlify.app/)
 
 ## My process
 
