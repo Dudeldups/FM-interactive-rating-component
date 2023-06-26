@@ -23,7 +23,7 @@ export default function Rating({ rating, handleChange, handleSubmit }) {
   return (
     <div className="form">
       <div className="form__img-wrapper">
-        <img src="src/assets/icon-star.svg" alt="" />
+        <img src="assets/icon-star.svg" alt="" />
       </div>
       <form>
         <fieldset>

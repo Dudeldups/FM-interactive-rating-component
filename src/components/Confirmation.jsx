@@ -5,7 +5,7 @@ export default function Confirmation({ rating }) {
     <div className="confirmation">
       <img
         className="confirmation__image"
-        src="src/assets/illustration-thank-you.svg"
+        src="assets/illustration-thank-you.svg"
         alt=""
       />
       <p className="confirmation__rating">You selected {rating} out of 5</p>
