@@ -24,7 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
+#### Design Preview
+
 ![Design preview for the Interactive rating component coding challenge](https://github.com/Dudeldups/FM-interactive-rating-component/blob/main/src/design/desktop-design.jpg)
+
+#### Solution
 
 ![Finished desktop design](https://github.com/Dudeldups/FM-interactive-rating-component/blob/main/src/design/solution.png)
 
