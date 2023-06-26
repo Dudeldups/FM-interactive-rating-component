@@ -20,8 +20,6 @@ export default function App() {
     }
   }
 
-  console.log(rating, isSubmitted);
-
   return (
     <>
       <header>

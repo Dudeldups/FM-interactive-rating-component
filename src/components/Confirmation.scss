@@ -1,0 +1,33 @@
+@use "../scss/colors";
+
+.confirmation {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding-block: 1rem;
+
+  &__image {
+  }
+
+  &__rating {
+    margin-top: 2rem;
+    padding: 0.5rem 1.25rem;
+    background-color: rgba(colors.$white, 0.08);
+    border-radius: 5rem;
+    color: colors.$orange;
+  }
+
+  &__thanks {
+    margin-top: 2rem;
+    color: colors.$white;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin-top: 0.8rem;
+    color: colors.$light-grey;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}

@@ -15,9 +15,9 @@ main {
   background: radial-gradient(
     farthest-side at top center,
     rgba(colors.$dark-blue, 1) 0%,
-    rgba(colors.$dark-blue, 0.66) 100%
+    rgba(colors.$dark-blue, 0.5) 100%
   );
-  max-width: 22.5rem;
-  padding: 1.5rem min(6.5vw, 1.5rem);
-  border-radius: 13px;
+  max-width: 25.5rem;
+  padding: 2rem min(6.5vw, 2.2rem);
+  border-radius: 24px;
 }
