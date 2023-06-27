@@ -2,7 +2,7 @@ import "./Confirmation.scss";
 
 export default function Confirmation({ rating }) {
   return (
-    <div className="confirmation">
+    <div className="confirmation" aria-live="polite">
       <img
         className="confirmation__image"
         src="assets/illustration-thank-you.svg"

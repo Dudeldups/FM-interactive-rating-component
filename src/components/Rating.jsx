@@ -25,7 +25,7 @@ export default function Rating({ rating, handleChange, handleSubmit }) {
       <div className="form__img-wrapper">
         <img src="assets/icon-star.svg" alt="" />
       </div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <fieldset>
           <legend className="form__text">
             <h2 className="form__text__title">How did we do?</h2>
@@ -35,9 +35,7 @@ export default function Rating({ rating, handleChange, handleSubmit }) {
             </p>
           </legend>
           <div className="form__input-container">{radioInputs}</div>
-          <button className="form__button" onClick={handleSubmit}>
-            Submit
-          </button>
+          <button className="form__button">Submit</button>
         </fieldset>
       </form>
     </div>
